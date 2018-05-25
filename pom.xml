@@ -12,13 +12,14 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-server-ha</module>
+        <module>eureka-server-auth</module>
         <module>provider-user</module>
         <module>consumer-movie</module>
         <module>provider-user-eureka</module>
         <module>consumer-movie-eureka</module>
     </modules>
     <properties>
-        <docker.image.prefix>ramer</docker.image.prefix>
+        <docker.image.prefix>mocker</docker.image.prefix>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>

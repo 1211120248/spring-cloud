@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-server-auth
+server:
+  port: 20020
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: admin
