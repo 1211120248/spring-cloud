@@ -1,0 +1,8 @@
+server:
+  port: 20020
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serverUrl:
+      defaultZone: http://localhost:20020/eureka/ #设置与eureka server交互地址

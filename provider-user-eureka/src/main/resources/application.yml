@@ -1,5 +1,5 @@
 server:
-  port: 10010
+  port: 20010
 spring:
   jpa:
     generate-ddl: false
@@ -10,13 +10,14 @@ spring:
     platform: h2
     schema: classpath:schema.sql
     data: classpath:data.sql
+  application:
+    name: provider-user
 logging:
   level:
     root: INFO
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
-
 ## INFO
 info:
   app:
@@ -25,3 +26,9 @@ info:
     java:
       source: @java.version@
       target: @java.version@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20020/eureka/
+  instance:
+    prefer-ip-address: false
