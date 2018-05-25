@@ -13,8 +13,10 @@
         <module>eureka-server</module>
         <module>eureka-server-ha</module>
         <module>eureka-server-auth</module>
+        <module>eureka-server-metadata</module>
         <module>provider-user</module>
         <module>consumer-movie</module>
+        <module>consumer-movie-metadata</module>
         <module>provider-user-eureka</module>
         <module>consumer-movie-eureka</module>
     </modules>

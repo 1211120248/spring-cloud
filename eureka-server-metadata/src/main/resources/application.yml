@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-server-metadata
+server:
+  port: 20020
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20020/eureka/
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      username: mocker
+      password: admin

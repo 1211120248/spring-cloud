@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: consumer-movie-metadata
+server:
+  port: 20010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20020/eureka/
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      username: mocker
+      password: admin
