@@ -17,6 +17,8 @@
         <module>provider-user</module>
         <module>consumer-movie</module>
         <module>consumer-movie-metadata</module>
+        <module>consumer-movie-ribbon</module>
+        <module>consumer-movie-ribbon-rule</module>
         <module>provider-user-eureka</module>
         <module>consumer-movie-eureka</module>
     </modules>

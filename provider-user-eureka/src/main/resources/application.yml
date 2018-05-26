@@ -31,4 +31,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:20020/eureka/
   instance:
-    prefer-ip-address: false
+    prefer-ip-address: true
