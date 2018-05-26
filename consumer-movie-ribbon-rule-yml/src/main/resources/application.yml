@@ -1,0 +1,14 @@
+server:
+  port: 20030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20020/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: consumer-movie
+provider-user:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
