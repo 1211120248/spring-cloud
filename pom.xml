@@ -20,6 +20,7 @@
         <module>consumer-movie-ribbon</module>
         <module>consumer-movie-ribbon-rule</module>
         <module>consumer-movie-ribbon-rule-yml</module>
+        <module>consumer-movie-ribbon-without-eureka</module>
         <module>provider-user-eureka</module>
         <module>consumer-movie-eureka</module>
     </modules>

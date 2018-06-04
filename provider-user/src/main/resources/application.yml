@@ -1,5 +1,5 @@
 server:
-  port: 10010
+  port: 20010
 spring:
   jpa:
     generate-ddl: false
