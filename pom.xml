@@ -28,6 +28,7 @@
         <module>consumer-movie-feign-contract</module>
         <module>consumer-movie-feign-interceptor</module>
         <module>consumer-movie-feign-builder</module>
+        <module>consumer-movie-feign-logger</module>
     </modules>
     <properties>
         <docker.image.prefix>mocker</docker.image.prefix>
