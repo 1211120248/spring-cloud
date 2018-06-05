@@ -1,0 +1,21 @@
+server:
+  port: 20030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20020/eureka/
+  instance:
+    prefer-ip-address: false
+spring:
+  application:
+    name: consumer-movie
+logging:
+  level:
+    com.gitee: debug
+feign:
+  compression:
+    request:
+
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 2048
+

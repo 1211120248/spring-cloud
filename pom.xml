@@ -29,6 +29,7 @@
         <module>consumer-movie-feign-interceptor</module>
         <module>consumer-movie-feign-builder</module>
         <module>consumer-movie-feign-logger</module>
+        <module>consumer-movie-feign-compress</module>
     </modules>
     <properties>
         <docker.image.prefix>mocker</docker.image.prefix>
