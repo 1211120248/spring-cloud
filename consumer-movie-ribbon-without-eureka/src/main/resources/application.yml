@@ -1,0 +1,8 @@
+server:
+  port: 20030
+spring:
+  application:
+    name: consumer-movie
+PROVIDER-USER:
+  ribbon:
+    listOfServers: localhost:20010,localhost:20011
