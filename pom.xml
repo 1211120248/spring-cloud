@@ -22,9 +22,11 @@
         <module>consumer-movie-ribbon-rule-yml</module>
         <module>consumer-movie-ribbon-without-eureka</module>
         <module>provider-user-eureka</module>
+        <module>provider-user-security-basic-auth</module>
         <module>consumer-movie-eureka</module>
         <module>consumer-movie-feign</module>
         <module>consumer-movie-feign-contract</module>
+        <module>consumer-movie-feign-interceptor</module>
     </modules>
     <properties>
         <docker.image.prefix>mocker</docker.image.prefix>
