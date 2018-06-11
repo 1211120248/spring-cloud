@@ -1,0 +1,14 @@
+server:
+  port: 20035
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20020/eureka/
+  instance:
+    prefer-ip-address: false
+spring:
+  application:
+    name: hystrix-turbine
+turbine:
+  app-config: CONSUMER-MOVIE
+  cluster-name-expression: "'default'"
