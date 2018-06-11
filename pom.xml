@@ -32,6 +32,7 @@
         <module>consumer-movie-feign-compress</module>
         <module>consumer-movie-ribbon-hystrix</module>
         <module>consumer-movie-feign-hystrix</module>
+        <module>consumer-movie-feign-hystrix-factory</module>
     </modules>
     <properties>
         <docker.image.prefix>mocker</docker.image.prefix>
