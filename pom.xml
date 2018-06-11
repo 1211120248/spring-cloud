@@ -34,6 +34,7 @@
         <module>consumer-movie-feign-hystrix</module>
         <module>consumer-movie-feign-hystrix-factory</module>
         <module>consumer-movie-feign-hystrix-stream</module>
+        <module>consumer-movie-feign-hystrix-dashboard</module>
     </modules>
     <properties>
         <docker.image.prefix>mocker</docker.image.prefix>
